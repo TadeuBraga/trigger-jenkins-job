@@ -30,7 +30,7 @@ runs:
   using: "composite"
   steps:
     - id: trigger-jenkins-job-using-api
-      run: jenkins.sh
+      run: ./jenkins.sh
       shell: bash
 branding:
   icon: 'arrow-down-circle'
