@@ -31,6 +31,7 @@ runs:
   steps:
     - id: trigger-jenkins-job-using-api
       run: bash ${GITHUB_WORKSPACE}/jenkins.sh
+      shell: bash
 branding:
   icon: 'arrow-down-circle'
   color: 'gray-dark'
