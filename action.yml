@@ -30,9 +30,7 @@ runs:
   using: "composite"
   steps:
     - id: trigger-jenkins-job-using-api
-      run: |
-         chmod +x ./jenkins.sh
-         ./jenkins.sh
+      run: ./.github/jenkins.sh
       shell: bash
 branding:
   icon: 'arrow-down-circle'
